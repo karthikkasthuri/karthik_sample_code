@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="$http.get(http://rest.learncode.academy/api/learncode/friends)">
+
+<p>Looping with objects:</p>
+<ul>
+  <li ng-repeat="x in names">
+  {{ x.name + ' ' + x.id+' '+x.drink+' '+x.age}}</li>
+</ul>
+
+</div>
+
+</body>
+</html>
